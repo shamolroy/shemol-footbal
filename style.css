@@ -194,6 +194,21 @@ body{
 img{
     max-width:100%;
 }
+.hover-image {
+	overflow: hidden;
+	transition: 0.5s;
+	height: 280px;
+}
+.hover-image img {
+	transition: 0.5s;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.hover-image:hover img {
+	transform: scale(1.1);
+	transition: 0.5s;
+}
 .player-single-item h2 {
 	font-weight: bold;
 	font-size: 28px;
