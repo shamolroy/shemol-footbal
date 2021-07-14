@@ -103,6 +103,7 @@ body{
 }
 .baner-left-area {
 	float: left;
+    width:50%;
 }
 .banner-right-area {
 	width: 50%;
