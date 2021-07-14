@@ -1,0 +1,129 @@
+@media all and (max-width:1200px){
+    .container {
+        padding: 0 30px;
+    }
+}
+@media all and (max-width:991px){
+    .menubar-area ul li {
+        margin-right: 30px;
+    }
+    .menubar-area ul li a {
+        font-size: 15px;
+    }
+    .banner-content h1 {
+        padding-bottom: 45px;
+        font-size: 51px;
+        line-height: 60px;
+    }
+    .player-list-item {
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 50%;
+                flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .hightlight-left-area h2 {
+        font-size: 40px;
+        line-height: 51px;
+    }
+    .hightlight-left-area p {
+        max-width: 320px;
+        font-size: 16px;
+    }
+    .contact-heading h2 {
+        font-size: 40px;
+    }
+}
+@media all and (max-width:767px){
+    .container {
+        padding: 0 15px;
+    }
+    .header-area {
+        padding: 30px 0;
+    }
+    .icon-area {
+        display: block !important;
+    }
+    .icon-area img {
+        width: 20px;
+    }
+    .menubar-area {
+        display: none;
+    }
+    .banner .container {
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    }
+    .baner-left-area {
+        width: 100%;
+    }
+    .banner-right-area {
+        width: 90%;
+        margin-top: 50px !important;
+        margin: auto;
+        float:none;
+    }
+    .hightlights-area .container {
+        display: block;
+    }
+    .hightlight-left-area {
+        width: 100%;
+    }
+    .hightlight-left-area h2 {
+        max-width: 100%;
+    }
+    .hightlight-left-area p {
+        max-width: 100%;
+    }
+    .hightlights-image-area {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .hightlights-image-area img {
+        width: 100%;
+    }
+}
+@media all and (max-width:575px){
+    .header-right-area a {
+        width: 95px;
+        height: 35px;
+        font-size: 13px;
+    }
+    .header-right-area a img {
+        width: 16px;
+    }
+    .banner-content h1 {
+        padding-bottom: 30px;
+        font-size: 40px;
+        line-height: 55px;
+    }
+    .banner-right-area {
+        width: 100%;
+    }
+    .banner {
+        padding-bottom: 60px;
+    }
+    .player-name-list {
+        padding: 45px 0;
+    }
+    .player-list-item {
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 100%;
+                flex: 0 0 100%;
+        max-width: 100%;
+        padding: 0;
+    }
+    .hightlights-area {
+        padding: 0;
+    }
+    .hightlight-left-area h2 {
+        font-size: 35px;
+    }
+    .footer-area {
+        padding: 30px 0 40px 0;
+        text-align: center;
+    }
+    .footer-content img {
+        max-width: 290px;
+        width: 100%;
+    }
+}
